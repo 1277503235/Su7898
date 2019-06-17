@@ -13,7 +13,7 @@
              <div class="foot"><span @click="application(0)">加班</span><span @click="application(1)">休假</span></div>
          </div>
          </transition>
-
+  
     </div>
     
 </template>
@@ -32,7 +32,7 @@ export default {
          Header,
          Tab,
          Over,
-         List
+         List,
     },
     data(){
         return {

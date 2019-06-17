@@ -75,9 +75,11 @@
                 </ul>
           </div>  
          </div>  
+         <El/>
     </div>
 </template>
 <script>
+import El from "./el-alert"
 import {mapActions,mapState} from "vuex"
 import api from "../api/index"
 export default {
@@ -85,7 +87,7 @@ export default {
 
     },
     components:{
-    
+        El
     },
     data(){
         return {
@@ -137,7 +139,7 @@ export default {
                            ne=ne.toFixed(1)
                         this.total=ne
                          }else{
-                              alert("求求你做个人吧！")
+                              this.$alert("求求你当个人吧")
                          }
                        
                  }

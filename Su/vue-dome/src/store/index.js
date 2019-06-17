@@ -15,8 +15,6 @@ const store =new Vuex.Store({
          User:"",
          list:[],
          Details:[]
-
-
     },
     mutations:{
      setUser(state,res){
