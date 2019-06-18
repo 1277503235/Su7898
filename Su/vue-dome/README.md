@@ -7,11 +7,16 @@
     npm i
     cnpm i element-ui -S   (npm出错 用cnpm)     element-ui
     cnpm install babel-plugin-component -D (npm出错 用cnpm) element-ui
+
 ``` bash
   -build        项目和打包工具
+
   -config       webpack 配置文件
+
   -node_moules  npm下载的依赖
-  -src          组件和入口文件    
+
+  -src          组件和入口文件
+
   --src/api     接口 封装 
              getUser 是否登录 
              getLogin 登录验证
@@ -32,11 +37,17 @@
                tab  待处理  已发起 已处理 tab 的切换
 
    --src/directives    指令
-   --src/fonts         icon 图标         
+
+   --src/fonts         icon 图标 
+
    --src/plugins       插件
+
    --src/router        路由 
+
    --src/scss          封装的 common minix
+
    --src/ store        vuex
+
    --src/utils         工具
                     Alert 弹窗 封装
                     flexble 自适应
@@ -44,9 +55,13 @@
 
    --src/views       容器组件
              login  登录
+
         APP.vue   根组件
-        main.js   入口文件         
+
+        main.js   入口文件
+
   -dist      npm run build 生成打包之后文件夹
+  
   -static    静态文件   
 ``` 
 
