@@ -46,7 +46,7 @@
              login  登录
         APP.vue   根组件
         main.js   入口文件         
-
+  -dist      npm run build 生成打包之后文件夹
   -static    静态文件   
 ``` 
 
